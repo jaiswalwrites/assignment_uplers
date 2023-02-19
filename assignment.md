@@ -27,7 +27,7 @@ Replace `<pod-name>` with the name of the pod you want to retrieve logs from. Th
 ```shell
 kubectl exec -it <pod-name> -- <command>
 ```
-Replace `<pod-name>` with the name of the pod you want to execute the command in, and replace `<command>` with the command you want to execute. This command will open an interactive terminal session in the container and allow you to execute the specified command.
+Replace `<pod-name>` with the name of the pod you want to execute the command in, and replace `<command>` with the command you want to execute. This command will open an interactive terminal session in the container and allow you to execute the specified command.for more, see [debug](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#debug).
 
 ## Conclusion
 When debugging in Kubernetes, start with `kubectl get pods`, followed by `kubectl logs`, and lastly, use `kubectl exec` to explore the container's inside and review other log files or configurations. Additionally, you can consider using the `kubectl debug` command to create a clone of a pod that does not terminate if an error occurs inside the container.
