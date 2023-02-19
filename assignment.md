@@ -3,7 +3,7 @@
 Kubernetes provides several useful commands for debugging operations. In this guide, we will cover `kubectl get pods`, `kubectl logs`, and `kubectl exec`.
 
 ## Prerequisites
-Before you begin, you should have a basic understanding of Kubernetes and have [`kubectl`](https://kubernetes.io/docs/tasks/tools/) installed on your system.
+Before you begin, you should have a basic understanding of [Kubernetes](https://kubernetes.io/docs/concepts/overview/) and have [`kubectl`](https://kubernetes.io/docs/tasks/tools/) installed on your system.
 
 ## List Available Pods
 `kubectl get pods`: This command returns a list of all available pods and their status. To use this command, you must specify the namespace you want to query.
