@@ -1,6 +1,6 @@
 # Debugging Operations in Kubernetes
 
-Kubernetes provides several useful commands for debugging operations. In this guide, we will cover `kubectl get pods`, `kubectl logs`, and `kubectl exec`.
+[Kubernetes](https://kubernetes.io/docs/concepts/overview/) provides several useful commands for debugging operations. In this guide, we will cover `kubectl get pods`, `kubectl logs`, and `kubectl exec`.
 
 ## Prerequisites
 Before you begin, you should have a basic understanding of [Kubernetes](https://kubernetes.io/docs/concepts/overview/) and have [`kubectl`](https://kubernetes.io/docs/tasks/tools/) installed on your system.
